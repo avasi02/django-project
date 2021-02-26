@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction page</title>
+    <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet"/>
+    <style>
+   .bg-image2{
+    background-image: url("{%static 'DiabetesPrediction/images/background-image.jpg' %}")}
+</style>
+</head>
+
+<body class="bg-image2">
+<div align="center" class="form">
+    <h2> Please enter the following information: </h2>
+    <form action="result">
+        <table>
+            <tr>
+                <td align="right"> <p class = "input-text"> PREGNANCIES: </p> </td>
+                <td align="left"> <input class="input-info" type="text" name="n1"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> GLUCOSE: </p> </td>
+                <td align="left"> <input class="input-info" type="text" name="n2"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> BLOOD PRESSURE: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n3"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> SKIN THICKNESS: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n4"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> INSULIN: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n5"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> BMI: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n6"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> DPF: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n7"> </td>
+            </tr>
+            <tr>
+                <td align="right"> <p class = "input-text"> AGE: </p> </td>
+                <td align="left"> <input class="input-info"  type="text" name="n8"> </td>
+            </tr>
+        </table>
+        <input class="submit-button" type="submit">
+    </form>
+ <h3 class="result">  Result: {{result2}} </h3>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+<link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet"/>
+<style>
+   .bg-image{
+    background-image: url("{%static 'DiabetesPrediction/images/background-image.jpg' %}")}
+</style>
+</head>
+
+<body class = 'bg-image'>
+<div align = 'center' >
+    <h1 > WELCOME TO DIABETES PREDICTION APP </h1 >
+    <form action="predict">
+        <input class = "button" type="submit" value="LET'S GET STARTED">
+    </form>
+</div>
+
+</body>
+</html>

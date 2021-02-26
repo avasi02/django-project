@@ -1,0 +1,102 @@
+.bg-image, .bg-image2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*input[type=submit]*/
+.button{
+font-family: Tahoma;
+text-decoration: none;
+background: rgb(121,171,255);
+background: linear-gradient(183deg, rgba(121,171,255,1) 0%, rgba(8,79,134,1) 100%);
+border: none;
+padding: 25px 46px;
+color: white;
+border-radius: 8px;
+font-size: 20px;
+outline:none;
+margin-top: 15px;
+}
+
+/*input:hover[type=submit]*/
+ .button:hover{
+font-family: Tahoma;
+background: rgb(192,203,222);
+background: linear-gradient(183deg, rgba(192,203,222,1) 0%, rgba(131,153,171,1) 100%);
+color: #003561;
+}
+
+.button:active{
+font-family: Tahoma;
+background: rgb(192,203,222);
+background: linear-gradient(183deg, rgba(192,203,222,1) 0%, rgba(131,153,171,1) 100%);
+outline: none;
+cursor: pointer;
+color: white;
+}
+
+h1{
+color: #003561;
+font-family:arial, sans-serif;
+font-weight:bold;
+margin-top:250px;
+
+}
+
+h2{
+color: #003561;
+font-family:arial, sans-serif;
+font-weight:bold;
+margin-top:100px;
+
+}
+
+.input-info{
+color: #003561;
+font-family: Tahoma;
+text-decoration: none;
+border: none;
+padding: 8px 8px;
+border-radius: 8px;
+font-size: 20px;
+outline:none;
+margin-top: 15px;
+margin-left: 10px;
+}
+.text-input{
+margin-left: 30px;
+}
+
+.submit-button{
+
+font-family: Tahoma;
+text-decoration: none;
+background: rgb(121,171,255);
+background: linear-gradient(183deg, rgba(121,171,255,1) 0%, rgba(8,79,134,1) 100%);
+border: none;
+padding: 10px 16px;
+color: white;
+border-radius: 8px;
+font-size: 20px;
+outline:none;
+margin-top: 15px;
+}
+
+.result {
+margin-left: -30px;
+color: #003561;
+font-family:arial, sans-serif;
+
+}
+.submit-button:hover{
+font-family: Tahoma;
+background: rgb(192,203,222);
+background: linear-gradient(183deg, rgba(192,203,222,1) 0%, rgba(131,153,171,1) 100%);
+color: #003561;
+}
+
+.input-text{
+color: #33536e;
+}
